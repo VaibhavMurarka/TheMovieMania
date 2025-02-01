@@ -3,6 +3,7 @@ import "./watchlist.css";
 import { MovieCard } from "../moviecard/MovieCard.jsx";
 import { ToastContainer } from "react-toastify";
 import { RiSearchEyeLine } from "react-icons/ri";
+import {FaTimes, FaBars} from 'react-icons/fa'
 import { server, Context } from "../../main.jsx";
 import LoadingBar from "react-top-loading-bar";
 import axios from "axios";
