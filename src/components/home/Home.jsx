@@ -11,10 +11,10 @@ function HomePage() {
     <div>
       <div className="landing-frame">
         <div className="landing-frame-message">
-          <div className="legend-head">Welcome To Moviemeter!</div>
+          <div className="legend-head">Welcome To MovieMania!</div>
 
           <div className="legend-body">
-          Browse, bookmark, and curate your movie journey with MovieMeter's personalized watchlist.
+          Browse, bookmark, and curate your movie journey with MovieMania's personalized watchlist.
           </div>
           <br />
           
