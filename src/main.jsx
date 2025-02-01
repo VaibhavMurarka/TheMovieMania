@@ -3,9 +3,9 @@ import ReactDOM from "react-dom/client";
 import App from "./App";
 import { createContext } from "react";
 import cookie from 'react-cookies'
-//exchange
-//export const server = "https://movie-server-beta.vercel.app";
-export const server = "http://localhost:4000";
+//exchange see
+export const server = "https://movie-mania-server-nu.vercel.app/";
+//export const server = "http://localhost:4000";
 const token = cookie.load('token')
 const temp = token?true:false;
 
