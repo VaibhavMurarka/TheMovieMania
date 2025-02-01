@@ -31,7 +31,7 @@ export const Header = () => {
     }
   return (
     <header className='nav'>
-        <h3><ImVideoCamera/> MovieMania</h3>
+        <h3><ImVideoCamera/>  MovieMania</h3>
         <LoadingBar progress={100} onLoaderFinished={() => setProgress(0)}/>
         <nav ref={navRef}>
             <Link className= "links" to='/watchlist' onClick={showNavbar}>
